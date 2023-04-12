@@ -1,0 +1,998 @@
+/* start of view_products css */
+
+    .big-div{
+        /*background-color: aquamarine;*/
+        width: 925px;
+        height: 680px;
+        position: relative;
+        margin: 0 auto;
+        top: 10px;
+    }
+    .header-for-the-div{
+        /*background-color: firebrick;*/
+        position: absolute;
+        width:520px;
+        height: 50px;
+        top: 5px;
+        
+    }
+    .div-label-style{
+        font-size: 24px;
+    }
+    .div-label-span-style{
+        color:red;
+    }
+    .products-display-div{
+        /*background-color: darkorange;*/
+        height: 650px;
+        padding: 2vw 5vw;
+        display: flex;
+        overflow-x:scroll;
+        scroll-behavior: smooth;
+    }
+    .product-display-div::-webkit-scrollbar{
+    display: none;
+    }
+    .products-cards{
+        flex: 0 0 auto;
+        position: relative;
+        top:60px;
+        width: 250px;
+        height: 450px;
+        
+    }
+    .product-img{
+        position: relative;
+        margin: 5px;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+    }
+    .card-btn{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        width: 90%;
+        text-transform: capitalize;
+        border: none;
+        outline: none;
+        background: #fff;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    .card-btn:hover{
+        opacity: 1;
+        background-color: #144272;
+        color: white;
+    }
+    .product-info{
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+    }
+    .product-name{
+        
+    }
+    .product-des{
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        overflow: hidden;
+        opacity: 0.5;
+        text-transform: capitalize;
+        margin: 5px 0;
+    }
+    .product-price{
+        margin-left: 20px;
+        opacity: 0.5;
+        
+    }
+
+/* end of view_products css */
+
+
+
+
+/* start of index css */
+    .first-div{
+        /*background-color: green;*/
+        position: relative;
+        margin: 0 auto;
+        width: 550px;
+        height: 170px;
+        top:50px;
+        border-bottom-style: solid;
+        border-color: rgba(0, 0, 0, 0.5);
+    }
+    .main-label{
+        padding: 8px 12px 8px 12px;
+        font-size: 24px;
+        color: darkslategray;
+        
+    }
+    .span-one{
+        color: midnightblue;
+        font-size: 42px;
+    }
+    .lorem-fill{
+        color: #000;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .medicine-class{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top:46px;
+        left: 115px;
+    }
+    .second-div{
+        /*background-color: green;*/
+        position: relative;
+        margin: 0 auto;
+        width: 550px;
+        height: 75px;
+        top:30px;
+    }
+    .my-search-bar{
+        position: absolute;
+        width: 230px;
+        left:162px;
+        height: 30px;
+        background-color:#000;
+        background-color:rgba(0, 0, 0, 0.1);
+        border-style: none;
+        border-bottom-style:  solid;
+        border-bottom-color:  #2C74B3;
+        border-bottom-width: 2px;
+    }
+    .search-button{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 392px;
+        background-color:  #2C74B3;
+        border-style: none;
+        cursor: pointer;
+    }
+    .search-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .search-button:hover{
+        background-color: #CCE5FF;
+    }
+    .third-div{
+        /*background-color: yellow;*/
+        position: relative;
+        margin: 0 auto;
+        width: 820px;
+        height: 270px;
+        top:30px;
+    }
+    .box1{
+        /*background-color: aqua;*/
+        position: absolute;
+        width: 170px;
+        height: 165px;
+        top: 15px;
+        left:100px;
+    }
+    .box2{
+        /*background-color:aqua;*/
+        position: absolute;
+        width: 170px;
+        height: 165px;
+        top: 15px;
+        left:330px;
+    }
+    .box3{
+        /*background-color:aqua;*/
+        position: absolute;
+        width: 170px;
+        height: 165px;
+        top: 15px;
+        left:560px; 
+    }
+    .vitamins-button{
+        width: 170px;
+        height: 140px;
+        position: relative;
+        border-style: none;
+        background-color:#000;
+        background-color:rgba(0, 0, 0, 0.09);
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    .vitamins-button:hover{
+        background-color:#fff;
+        background-color:rgba(0, 0, 0, 0.3);
+        transition: all 300ms ease;
+    }
+    .vitamins-icon{
+        width: 90px;
+        height: 90px;
+    }
+    .vitamins-label{
+        font-size: 24px;
+        position: absolute;
+        bottom: 0px;
+        left: 42px;
+    }
+    .daily-essentials-button{
+        width: 170px;
+        height: 140px;
+        position: absolute;
+        border-style: none;
+        background-color:#000;
+        background-color:rgba(0, 0, 0, 0.09);
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    .daily-essentials-button:hover{
+        background-color:#000;
+        background-color:rgba(0, 0, 0, 0.3);
+    }
+    .daily-essentials-icon{
+        width: 90px;
+        height: 90px
+    }
+    .daily-essentials-label{
+        font-size: 24px;
+        position: absolute;
+        width: 149px;
+        bottom: 0px;
+        left: 10px;
+    }
+    .medication-button{
+        width: 170px;
+        height: 140px;
+        position: absolute;
+        border-style: none;
+        background-color:#000;
+        background-color:rgba(0, 0, 0, 0.09);
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    .medication-button:hover{
+        background-color:#000;
+        background-color:rgba(0, 0, 0, 0.3); 
+    }
+    .medication-icon{
+        width:90;
+        height: 90;
+    }
+    .medication-label{
+        font-size: 24px;
+        position: absolute;
+        width: 149px;
+        bottom: 0px;
+        left: 30px;
+    }
+.welcome-after-login{
+    position: relative;
+    top:20px;
+    left: 450px;
+}
+.welcome-after-login span{
+    color: red;
+}
+.logout-button{
+    position: relative;
+    top:15px;
+    left: 483px;
+}
+.fourth-div{
+   /* background-color: yellow;*/  
+    position: relative;
+    width: 925px;
+    height: 500px;
+    margin: 5 auto;
+}
+.past-purchase-label{
+    font-size: 25px;
+}
+.empty-cookie{
+        font-size: 80px;
+        opacity: 0.3;
+        position: absolute;
+        top:35px;
+        left: 345px; 
+}
+/* end of index css */
+
+
+
+
+
+/* start of administrator_page css */
+    .my-header-style{
+        background-color: #2C74B3;
+        width: 925px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .my-logo-style{
+        width: 65px;
+        height: 60px;
+        padding: 5px;
+    }
+    .logo-label-style{
+        font-size: 19px;
+        color: aliceblue;
+        position: absolute;
+        font-family: sans-serif;
+        top:37%;
+        left: 65px;
+        
+    }
+    .welcome-class{
+        /*background-color: yellow;*/
+        position: absolute;
+        margin: 0 auto;
+        top:80px;
+        left:390px;
+        font-family: serif;
+    }
+    .tabs-container{
+        /*background-color: aquamarine;*/
+        position: relative;
+        margin: 0 auto;
+        top:200px;
+        width: 700px;
+        height: 400px;
+    }
+    .buttons-container{
+        /*background-color: yellow;*/
+        height: 50px;
+        width:700px;
+    }
+    .all-buttons-style{
+        width: 25%; 
+        height: 100%;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px;
+        background-color:#000;
+        background-color:rgba(0, 0, 0, 0.15);
+    }
+    .all-buttons-style:hover{
+        color: aliceblue;
+        background-color:#000;
+        background-color:rgba(0, 0, 0,0.5);
+    }
+    .tab-panel{
+        background-color: #000;
+        background-color: rgba(0,0,0,0.2);
+        height: 300px;
+        display: none;
+    }
+    .inside-add-div{
+        background-color: #dbe2f0;
+        position: absolute;
+        left: 10px;
+        width: 680px;
+        height: 250px;
+    }
+    #company-name-label-style{
+        position: absolute;
+        top:30px;
+        left: 0px;
+    }
+    #company-name-input-style{
+        position: absolute;
+        top:30px;
+        left: 120px;
+    }
+    #catagory-label-style{
+        position: absolute;
+        top:60px;
+        left: 0px;
+    }
+    #catagory-input-style{
+        position: absolute;
+        top:60px;
+        left: 80px;
+    }
+    #barcode-label-style{
+        position: absolute;
+        top:90px;
+        left: 0px;
+    }
+    #barcode-input-style{
+        position: absolute;
+        top:90px;
+        left:80px;
+    }
+    #selling-label-style{
+        position: absolute;
+        top:120px;
+        left: 0px;
+    }
+    #selling-input-style{
+        position: absolute;
+        top:120px;
+        left: 100px;
+    }
+    #production-label-style{
+        position: absolute;
+        top: 0px;
+        left: 320px;
+    }
+    #production-input-style{
+        position: absolute;
+        top:0px;
+        left: 450px;
+    }
+    #expiration-label-style{
+        position: absolute;
+        top:30px;
+        left:320px; 
+    }
+    #expiration-input-style{
+        position: absolute;
+        top:30px;
+        left: 450px;
+    }
+    #quantity-label-style{
+        position: absolute;
+        top :60px;
+        left: 320px;
+    }
+    #quantity-input-style{
+        position: absolute;
+        top: 60px;
+        left: 400px;
+        width: 60px;
+    }
+    #description-label-style{
+        position: absolute;
+        top:90px;
+        left: 320px;
+    }
+    #description-input-style{
+        position: absolute;
+        top:90px;
+        left: 450px;
+    }
+    #submit-button-style{
+        position: absolute;
+        top:200px;
+        left: 245px;
+    }
+    #reset-button-style{
+        position: absolute;
+        top:200px;
+        left: 350px;
+    }
+    #myFile{
+        position: absolute;
+        top:170px;
+        left: 450px;
+    }
+
+/*start my test css*/
+    #product-name-input-style-update {
+       width: 150px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    #company-name-input-style-update {
+        width: 150px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    #catagory-input-style-update {
+        width: 150px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    #barcode-input-style-update {
+        width: 150px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    #selling-input-style-update {
+        width: 150px;
+        position: relative;
+        margin: 0 auto;;
+    }
+    
+    #production-input-style-update {
+        width: 150px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    #expiration-input-style-update {
+       width: 150px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    #quantity-input-style-update {
+        width: 150px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    #description-input-style-update {
+        width: 150px;
+        position: relative;
+        margin: 0 auto;;
+    }
+    
+    #submit-button-style-update {
+        
+        background-color: rgb(55, 153, 186);
+        color: white;
+        width: 150px;
+        position: relative;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    
+    #reset-button-style-update {
+       
+        background-color: rgb(55, 153, 186);
+        color: white;
+        width: 150px;
+        position: relative;
+        margin: 0 auto;;
+        cursor: pointer;
+    }
+
+    #table{font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    right: 350px;
+    }
+
+
+    #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+        }
+
+    #table tr:nth-child(even){background-color: #f2f2f2;}
+
+    #table tr:hover {background-color: #ddd;}
+
+    #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    }
+
+#SelectProductLabel {
+        text-align: center;
+        color:red;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+.product-design{
+		background-color: white;
+		position:relative;
+		top:25px;
+		padding:100px;
+		border-style: solid;
+		border-color: coral;
+		
+	}
+	.Product_Name{
+		position:relative;
+		bottom:50px;
+		right:20px;
+	}
+	.company_name{
+		position:relative;
+		bottom:40px;
+		right:30px;
+	}
+	.barcodedi{
+		position:relative;
+		bottom:45px;
+		left:20px;
+		
+	}
+	.category{
+		position:relative;
+		left:12px;
+		top:10px;
+	}
+	.selling_price{
+		position:relative;
+		bottom:130px;
+		left:260px;
+	}
+		
+	.production_date{
+		position:relative;
+		bottom:120px;
+		left:260px;
+		
+	}
+	
+	.exipration_date{
+		position:relative;
+		bottom:110px;
+		left:260px;
+		
+	}
+	.quantityy{
+		position:relative;
+		bottom:100px;
+		left:290px;
+		
+	}
+	.brief_description{
+		position:relative;
+		bottom:20px;
+		left:150px;
+		
+	}
+	.upload_button{
+		position:relative;
+		left:150px;
+	}
+	.submit_button{
+		position:relative;
+		top:20px;
+	}
+	.reset_button{
+		position:relative;
+		left:350px;
+}
+
+.product_ID{
+        position:relative;
+        bottom:135px;
+        left:250px;
+    }
+/* end of administrator_page css */
+
+
+
+
+/* start of header css */
+    .my-header-style{
+        background-color: #2C74B3;
+        width: 925px;
+        position: relative;
+        margin: 0 auto;
+        top: -10px;
+    }
+    .my-logo-style{
+        width: 65px;
+        height: 60px;
+        padding: 5px;
+    }
+    .logo-label-style{
+        font-size: 19px;
+        color: aliceblue;
+        position: absolute;
+        font-family: sans-serif;
+        top:37%;
+        left: 65px;
+    }
+    .nav-class-div{ 
+        position: absolute;
+        width: 360px;
+        top:10px;
+        left: 300px;
+    }
+
+    .right-div{
+        /*background-color: green;*/
+        position: absolute;
+        width: 150px;
+        height: 60px;
+        top:5px;
+        left:755px;
+    }
+    .login-button{
+        position: absolute;
+        width: 60px;
+        height: 26px;
+        color: darkblue;
+        top: 18px;
+        left: 3px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .cart-icon{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top:7px;
+        left:88px;
+    }
+    .cart-label{
+        position: absolute;
+        bottom: 5px;
+        left:80px;
+    }
+
+
+/* end of header css */
+
+
+
+
+/* start of footer css */
+.all-footer-div{
+        /*background-color: page;*/
+        position: relative;
+        bottom: 0px;
+        text-align: center;
+        
+    }
+    .my-footer-style{
+        background-color: #144272;
+        width: 925px;
+        height: 180px;
+        position: relative;
+        margin: 0 auto;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    .copyright-div{
+        /*background-color: yellow;*/
+        position: absolute;
+        left: 355px;
+    }
+    .our-copyright{
+        color: white;
+    }
+    .lorem-div{
+        /*background-color: green;*/
+        position: absolute;
+        width:500px;
+        top:45px;
+        left: 215px;
+    }
+    .lorem-fill2{
+        color: gainsboro;
+    }
+    .pharmacy-icon-div{
+       /* background-color:pink;*/
+        position: absolute;
+        top:40px;
+        left:80px;
+    }
+    .pharmacy-icon{
+        width: 80px;
+        height: 80px;
+    }
+    .small-icons-div{
+        /*background-color: aquamarine;*/
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        top:15px;
+        right: 60px;
+    }
+    .icon-box1{
+        /*background-color: yellow;*/
+        position: absolute;
+        top:0px;
+    }
+    .all-icons-class{
+        width: 18px;
+        height: 18px;
+    }
+    .icon-box2{
+        /*background-color: yellow;*/
+        position: absolute;
+        left:40px;
+    }
+    .icon-box3{
+        /*background-color: yellow;*/
+        position: absolute;
+        left:80px;
+    }
+    .all-buttons-class{
+        width:30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+/* end of footer css */
+
+
+
+
+/* start of cart css */
+
+.header-cart{
+       /* background-color: beige;*/
+        position: relative;
+        width: 925px;
+        height: 90px;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    .shopping-cart-div{
+        /*background-color: darkcyan;*/
+        position: relative;
+        width: 925px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .cart-table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .cart-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .total-price{
+        display:flex;
+        justify-content: flex-end;
+    }
+    .total-price table{
+        border-top:3px solid #144272;
+        width: 100%;
+        max-width: 350px;
+    }
+  th{
+        text-align: left;
+        padding: 5px;
+        background-color: #144272;
+        font-weight: normal;
+        color: white;
+    }
+    td{
+        padding: 10px 5px;
+    }
+    td input{
+        width: 40px;
+        height: 30px;
+        padding: 5px;
+    }
+    td a{
+        color: red;
+        font-size: 12px;
+    }
+    td img{
+        width: 80px;
+        height: 80px;
+        margin-right: 10px; 
+    }
+    td:last-child{
+        text-align: right;
+    }
+    th:last-child{
+        text-align: right;
+    }
+    .empty-cart{
+        font-size: 80px;
+        opacity: 0.3;
+        position: absolute;
+        top:120px;
+        left: 180px;
+    }
+    .checkout-button{
+        position: relative;
+        bottom: 0px;
+        left: 40px;
+        width: 200px;
+        height: 35px;
+        border-style: hidden;
+        border-radius: 20px;
+        transition: 300ms;
+    }
+    .checkout-button:hover{
+        background-color: #144272;
+        color: white;
+    }
+    .remove-button{
+        border-style: hidden;
+        color: red;
+        font-size: 11px;
+    }
+    .update-btn{
+        border-style: hidden;
+        color: red;
+        font-size: 11px;
+    }
+    .update-item{
+        width: 55px;
+    }
+    /**/
+    @page {
+  size: A4;
+  margin: 0;
+}
+
+body {
+  /*font-family: Arial, sans-serif;*/
+  /*font-size: 12pt;*/
+}
+
+.header-cart {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16pt;
+  padding-top: 10pt;
+}
+
+.shopping-cart-div {
+  padding: 10pt;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid black;
+  padding: 5pt;
+}
+
+.cart-info {
+  display: flex;
+}
+
+.cart-info img {
+  height: 50pt;
+  width: 50pt;
+  margin-right: 10pt;
+}
+
+.total-price {
+  padding-top: 10pt;
+  text-align: right;
+}
+
+.total-price td {
+  padding-right: 10pt;
+}
+    .payment-div{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    right: 45px;
+    }
+    .card-number-input{
+        width: 280px;
+        margin: 2px;
+    }
+    .card-name-input{
+        width: 280px;
+        margin: 2px;
+    }   
+    .exp-month-input{
+        width: 35px;
+        margin: 2px;
+    }
+    .card-cvv-input{
+        width: 35px;
+        margin: 2px;
+    }
+    .exp-year-input{
+        width: 35px;
+        margin: 2px;
+    }
+    
+    
+
+/* end of cart css */
